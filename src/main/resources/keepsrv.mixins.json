@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.keepsrv.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ConnectScreenThreadMixin",
+    "ManageServerScreenMixin",
+    "ServerDataMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

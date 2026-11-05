@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "keepsrv",
+  "version": "${version}",
+  "name": "Keep SRV",
+  "description": "在握手包中保持使用 SRV 解析前的原始域名与端口，以绕过校园网 DPI 拦截。",
+  "authors": ["lhy"],
+  "environment": "client",
+  "mixins": [
+    "keepsrv.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.0",
+    "minecraft": "~26.1"
+  }
+}
